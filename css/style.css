@@ -1,0 +1,140 @@
+        /* #2 #colorful #palette is:
+            * Background: #fbe9e7 (LIGHT_ORANGE)
+          * Primary Text: black
+
+          * Primary color: #ff3d00 (DARK_ORANGE)
+          * Primary color_text : black
+          * Accent color: #1de9b6 (AQUAMARINE2)
+          * Accent color_text: black
+          */
+
+        /*global styles */
+
+        body {
+            /* #2 #colorful #background */
+            background-color: #fbe9e7;
+            font-family: Roboto, sans-serif;
+        }
+        * {
+            margin: initial;
+            padding: initial;
+            border: 
+        }   
+        
+        .text-uppercase {
+        text-transform: uppercase;
+        
+        }
+        
+        /* #app bar */
+        .app-bar-styling {
+        /* #4 #colourful #app-bar */
+        background-color: #ff3d00;
+        color: black;
+        padding: 0px 0px 0px 0px;
+        }
+
+        /*#4 #colourful #channeltab*/
+       
+        #channels {
+            /* #3 #colorful #channelandchat */
+            background-color: white;
+            list-style-type: none
+        }
+        /* #4 channels #tiles values */
+        #channels li {
+            padding: 16px;
+            font-size: 16px;
+            height: 32px;
+            box-sizing: content-box;
+            border-bottom: solid 1px;
+            border-bottom-color: #fbe9e7;
+            }
+            #channels img{
+            vertical-align: middle;
+    
+        }
+        
+        /* #4 #class for selected #channel and later interaction*/        
+
+        #channels .selected {
+            border-left: solid 5px;
+            border-left-color: #ff3d00;
+    
+        }
+
+        
+        /* styles for #tab bar */
+
+        #tabbing{
+        background-color: white;
+        width: 100%;
+        text-align: center;
+        
+        
+        }
+        /* #tabbuttons styles */
+        #tabbing button{
+        text-transform: uppercase;
+        background-color: white;
+        color: black;
+        border: none;
+        font-size: 13px;
+            width: 33%;
+            height: 72px;
+            padding:16px;
+            margin:auto;
+        }
+        #tabbing img
+        {
+        display: block;
+        margin:auto;
+        margin-bottom: 4px;
+        }
+         /* #4 #class for selected #tab and later interaction*/           
+        #tabbing .selected{
+        border-bottom: solid 5px;
+        border-bottom-color: #ff3d00;
+        }
+
+        /*styles for #messages */
+
+        /*#chat #messages are in a container that is displayed on the 80% of #browser's width*/
+        
+        .message{
+        width:80%;
+        margin-bottom: 8px;
+        margin-left: 2.5%;
+                
+        }
+
+        .message h3{
+        /* #2 #font #metadata is now medium */
+        font-size: medium;
+        }
+
+        .message p{
+        /* #2 #colorful #channelandchat */
+                background-color: white;
+                padding: 16px;
+            
+        }
+
+        .message button {
+            /* #2 #colourful #plusfive button */
+            background-color: #1de9b6;
+            color: black;
+            text-transform: uppercase;
+        }
+        .message em {
+            /* #2 #font #remaining overrides the default italic appearance of em elements*/
+            font-size: larger;
+            font-style: normal;
+        }
+        /* #4 #ownmessage aligment distinction*/
+        .own-message {
+            margin-left: 17.5%;
+            margin-top: 8px;
+        }
+      
+       
