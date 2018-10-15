@@ -18,7 +18,8 @@
         * {
             margin: initial;
             padding: initial;
-            border: 
+            border: 1px solid black
+                ;
         }   
         
         .text-uppercase {
@@ -31,7 +32,7 @@
         /* #4 #colourful #app-bar */
         background-color: #ff3d00;
         color: black;
-        padding: 0px 0px 0px 0px;
+        padding: 0px 0px 0px px;
         }
 
         /*#4 #colourful #channeltab*/
@@ -43,10 +44,10 @@
         }
         /* #4 channels #tiles values */
         #channels li {
-            padding: 16px;
-            font-size: 16px;
+            padding: 15px;
+            font-size: 20px;
             height: 32px;
-            box-sizing: content-box;
+            box-sizing:content-box;
             border-bottom: solid 1px;
             border-bottom-color: #fbe9e7;
             }
